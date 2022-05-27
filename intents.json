@@ -1,0 +1,68 @@
+{"intents":  [
+  { "tag": "salutari",
+    "patterns": ["Salut", "Buna ziua", "Noroc", "Privet", "Hey", "Hi", "Hello"],
+    "responses": ["Salutare!", "Oo, salut!", "Privet", "Va pot ajuta cu ceva?"],
+    "context_set": ""
+  },
+  { "tag": "multumire",
+    "patterns": ["Multumesc", "Mersi", "Spasiba"],
+    "responses": ["Cu drag!", "Cu placere!", "Pentru putin!", "Din tot sufletul!"],
+    "context_set": ""
+  },
+  { "tag": "goodbye",
+    "patterns": ["La revedere", "Pe curand", "Ne revedem", "Paka", "Ciao"],
+    "responses": ["O zi frumoasa!", "Pe curand", "Cele bune!", "La revedere!"],
+    "context_set": ""
+  },
+  { "tag": "incheiere",
+    "patterns": ["Am inteles", "La mine e bine", "Sunt bine", "Clar","Minunat", "Perfect", "Okey"],
+    "responses": ["Ma bucur!", "Super!", "Bravo"],
+    "context_set": ""
+  },
+  { "tag": "age",
+    "patterns": ["Cati ani ai?", "Ce varsta ai?", "ani?"],
+    "responses": ["Am multi ani!", "Am 20 de ani!", "Inca sunt tanar"],
+    "context_set": ""
+  },
+  { "tag": "name",
+    "patterns": ["Cum te numesti?", "Cum te cheama?", "Cum sa te numesc?", "Care e numele tau?", "Cine esti?"],
+    "responses": ["Ma numesc Weather Bot!", "Zi-mi Weather Bot!", "Weather Bot!"],
+    "context_set": ""
+  },
+  { "tag": "name_rs",
+    "patterns": ["Pe mine ma cheama", "Vanea", "Ion", "Imi spune "],
+    "responses": ["Incantat de cunostinta!"],
+    "context_set": ""
+  },
+  { "tag": "meteo",
+    "patterns": ["Ce poti face?", "Cand va ploua?", "Cum e vremea afara?", "Afara e frig?", "Zi-mi prognoza meteo","Ce stii a face?"],
+    "responses": ["Scrie-mi numele orasului si eu iti voi trimite un raport meteo!", "Spune-mi orasul care te intereseaza si eu iti voi trimite un raport meteo!"],
+    "context_set": ""
+  },
+  { "tag": "nasterea",
+    "patterns": ["Cine e tatal tau?", "Cum ai aparut?", "Cine te-a creat?"],
+    "responses": ["Vanea m-a creat!", "Vanea! Datorita lui exist!", "Intraba-l pe Vanea"],
+    "context_set": ""
+  },
+  { "tag": "ce faci",
+    "patterns": ["Ce faci?", "Cum te simti?", "Cum la tine?"],
+    "responses": ["Bine, la tine cum?"],
+    "context_set": ""
+  },
+  { "tag": "fara_raspuns",
+    "patterns": [""],
+    "responses": ["Nu va pot raspunde!", "Scuze, nu stiu raspuns."],
+    "context_set": ""
+  },
+  { "tag": "vorba",
+    "patterns": ["Mai vorbim?", "Stam la vorba"],
+    "responses": ["Desigur!", "Mi-ar face placere."],
+    "context_set": ""
+  },
+  { "tag": "locatia",
+    "patterns": ["De unde esti?", "Unde traiesti?"],
+    "responses": ["Sunt din Moldova!", "Republica Moldova!"],
+    "context_set": ""
+  }
+
+]}
